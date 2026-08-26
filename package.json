@@ -1,7 +1,7 @@
 {
   "name": "think-collapse",
-  "version": "1.0.0",
-  "description": "Hide the assistant reasoning \"Think\" row so only the result text is shown. · 隐藏助手思考折叠行，只显示结果。",
+  "version": "2.0.0",
+  "description": "Collapse the full pre-result process of each assistant turn into one Codex-style duration row. · 将每轮最终结果前的完整过程折叠为 Codex 风格耗时行。",
   "license": "MIT",
   "type": "module",
   "main": "lib/index.js",
