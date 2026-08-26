@@ -1,0 +1,5 @@
+# dsh bundle patch: mounts this plugin into the profile's layer stack.
+# The client half is auto-discovered from package.json's dsh.client declaration.
+- insert:
+    - id: think-collapse
+      name: think-collapse

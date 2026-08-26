@@ -1,0 +1,33 @@
+{
+  "name": "think-collapse",
+  "version": "1.0.0",
+  "description": "Hide the assistant reasoning \"Think\" row so only the result text is shown. · 隐藏助手思考折叠行，只显示结果。",
+  "license": "MIT",
+  "type": "module",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "think",
+    "reasoning",
+    "collapse"
+  ],
+  "exports": {
+    "./client": "./client/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "client",
+    "cordis.patch.yml"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  }
+}
